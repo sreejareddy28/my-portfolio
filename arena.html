@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ganesana Sreeja - B.Tech graduate and fresher Full Stack Support Engineer skilled in Python, HTML, CSS, C and SQL.">
+  <title>Ganesana Sreeja | Full Stack Support Engineer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <a href="#home" class="logo">GS<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#project">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="home">
+    <canvas id="bg3d" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Ganesana Sreeja</h1>
+      <p class="role"><span id="typed"></span><span class="cursor">|</span></p>
+      <p class="headline">Engineering Graduate Ready to Solve Problems in Full Stack Support.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <a href="#project" class="btn btn-ghost">View My Projects</a>
+      </div>
+      <p class="location">📍 Bangalore / Chennai, India</p>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">↓</a>
+  </section>
+
+  <main>
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container reveal">
+        <h2 class="section-title"><span>01</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Hello! I'm <strong>Ganesana Sreeja</strong>, a B.Tech graduate from Bangalore with a strong interest in web development and application support.</p>
+            <p>I have hands-on knowledge of <strong>Python, HTML, CSS, C and SQL</strong>, built through three college projects and two training programs.</p>
+            <p>My projects taught me how to break a big problem into small steps and keep going until it works. I communicate clearly, learn new tools quickly, and work hard on every task.</p>
+            <p>I am a fresher, and I am very serious about my career. I am looking for a <strong>Full Stack Support</strong> role where I can learn from a good team and add real value from day one.</p>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>B.Tech</strong><span>ECE Graduate, 2026</span></div>
+            <div class="stat"><strong>8.7</strong><span>B.Tech CGPA</span></div>
+            <div class="stat"><strong>3</strong><span>College projects</span></div>
+            <div class="stat"><strong>2</strong><span>Training certifications</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section alt" id="skills">
+      <div class="container reveal">
+        <h2 class="section-title"><span>02</span> Skills</h2>
+        <div class="cards">
+          <article class="card"><div class="icon">🐍</div><h3>Python</h3><p>I write clean, simple programs and used Python in my machine learning projects.</p></article>
+          <article class="card"><div class="icon">🧱</div><h3>HTML</h3><p>I build well-structured web pages that are easy to read and maintain.</p></article>
+          <article class="card"><div class="icon">🎨</div><h3>CSS</h3><p>I design neat, responsive layouts that work on mobile and desktop.</p></article>
+          <article class="card"><div class="icon">⚙️</div><h3>C</h3><p>I understand programming basics and logic building through C.</p></article>
+          <article class="card"><div class="icon">🗄️</div><h3>SQL</h3><p>I can write queries to store, find and update data in a database.</p></article>
+          <article class="card"><div class="icon">💬</div><h3>Good Communication</h3><p>I explain technical issues in simple words and listen carefully to others.</p></article>
+          <article class="card"><div class="icon">⚡</div><h3>Fast Learning</h3><p>I pick up new tools and concepts quickly and put them to use.</p></article>
+          <article class="card"><div class="icon">💪</div><h3>Hard Work</h3><p>I stay focused and committed until the task is completed properly.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section" id="education">
+      <div class="container reveal">
+        <h2 class="section-title"><span>03</span> Education</h2>
+        <div class="timeline">
+          <div class="t-item">
+            <span class="t-date">Aug 2022 – Apr 2026</span>
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p>Electronics and Communication Engineering · PBR Visvodaya Institute of Technology and Science</p>
+            <span class="badge">CGPA 8.7</span>
+          </div>
+          <div class="t-item">
+            <span class="t-date">Apr 2020 – May 2022</span>
+            <h3>Intermediate</h3>
+            <p>Sri Swarnandhra Bharathi Junior College · Board of Intermediate Education</p>
+            <span class="badge">CGPA 7.98</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section alt" id="project">
+      <div class="container reveal">
+        <h2 class="section-title"><span>04</span> Projects</h2>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Spam Review Identification</h3>
+            <span class="t-date">Jan 2024 – May 2024 · College Project</span>
+          </div>
+          <p>An application that detects spam reviews and removes them automatically, so that users see only genuine feedback.</p>
+          <ul>
+            <li>Used pretrained word embeddings to understand the text of each review.</li>
+            <li>Classified reviews with a weighted swarm Support Vector Machine (SVM).</li>
+            <li>Automatically removed reviews that were detected as spam.</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>Machine Learning</span><span>Word Embeddings</span><span>SVM</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Oral Cancer Classification using LightGBM</h3>
+            <span class="t-date">College Project</span>
+          </div>
+          <p>A machine learning model that classifies white-light images of the oral cavity to support non-invasive early screening.</p>
+          <ul>
+            <li>Classified images into normal, precancerous or early malignant stages.</li>
+            <li>Extracted color and texture features from each image.</li>
+            <li>Trained a LightGBM model for fast and accurate predictions.</li>
+          </ul>
+          <div class="tags"><span>Machine Learning</span><span>LightGBM</span><span>Image Features</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>GPS and GSM Tracker</h3>
+            <span class="t-date">College Project</span>
+          </div>
+          <p>A tracking system that finds a location and sends it over the mobile network.</p>
+          <ul>
+            <li>GPS module receives signals and gives latitude, longitude, speed and direction.</li>
+            <li>GSM module sends the location data to a server or mobile device through cellular networks.</li>
+          </ul>
+          <div class="tags"><span>GPS Module</span><span>GSM Module</span><span>Electronics</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Certifications ===== -->
+    <section class="section" id="certifications">
+      <div class="container reveal">
+        <h2 class="section-title"><span>05</span> Certifications</h2>
+        <div class="cards two">
+          <article class="card"><div class="icon">📜</div><h3>Java, HTML, CSS &amp; JavaScript</h3><p>Two months of intensive training — Besant Technologies.</p></article>
+          <article class="card"><div class="icon">🏅</div><h3>Python Certification</h3><p>Achieve Software Training and Skill Development Centre.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Why Hire Me ===== -->
+    <section class="section alt" id="why">
+      <div class="container reveal">
+        <h2 class="section-title"><span>06</span> Why Hire Me?</h2>
+        <blockquote class="why">
+          <p>I don't have job experience yet, but I have strong basics, real project practice and the discipline to finish what I start.</p>
+          <p>Give me a chance, and I will learn fast, work hard and become someone your team can count on.</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container reveal center">
+        <h2 class="section-title"><span>07</span> Contact Me</h2>
+        <p class="contact-line">I'm always happy to talk — send me a message and let's see how I can help your team!</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:ganesanasreeja@gmail.com"><span class="icon">✉️</span><strong>Email</strong><span>ganesanasreeja@gmail.com</span></a>
+          <a class="contact-card" href="tel:+916302511249"><span class="icon">📞</span><strong>Phone</strong><span>+91 63025 11249</span></a>
+          <a class="contact-card" href="https://linkedin.com/in/sreeja-ganesana" target="_blank" rel="noopener"><span class="icon">🔗</span><strong>LinkedIn</strong><span>linkedin.com/in/sreeja-ganesana</span></a>
+          <div class="contact-card"><span class="icon">📍</span><strong>Location</strong><span>Bangalore / Chennai</span></div>
+        </div>
+        <a href="mailto:ganesanasreeja@gmail.com?subject=Job%20Opportunity%20for%20Ganesana%20Sreeja" class="btn btn-primary">Say Hello 👋</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Ganesana Sreeja · Built with HTML, CSS, JavaScript &amp; Three.js</p>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <!-- Scripts: 1) Three.js library  2) 3D background  3) page interactions -->
+  <script src="js/three.min.js"></script>
+  <script src="js/scene.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
